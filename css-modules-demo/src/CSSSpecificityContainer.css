@@ -1,0 +1,26 @@
+
+/* 0,0,1,0 */
+.container {
+    color: red;
+    background-color: white;
+}
+
+/* 0,1,0,0 */
+#title {
+   color: blue;
+   background-color: white;
+}
+
+/* 0,1,0,0 */
+/* This will take precedence over the title above it since CSS files read 
+from top to bottom */
+#title {
+    color: green;
+    background-color: white;
+ }
+
+/* 0,0,0,1 */
+div {
+   color: black;
+   background-color: white;
+}
